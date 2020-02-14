@@ -2,14 +2,14 @@
 ## Summary:   
 Collect gaze images with observer looking at different points. Images are captured by observer left-clicking the mouse when he/she feels good regarding the current gaze direction.
 
-### normal set:
-![normal set] (Selection_224.png)  
-Format: ![Alt Text](url)
+* normal set:
+![normal set](Selection_224.png)  
+
 contains 7 points, i.e. left red points, center red points, right red points and the 4 blue points in between.				
 
-### edge set: 
-![edge set] (Selection_225.png)  
-Format: ![Alt Text](url)
+* edge set: 
+![edge set](Selection_225.png)  
+
 contains 4 points, i.e. left (or right) red points, center red points and the 2 blue points in-between
 
 ## You need to know:   
@@ -20,12 +20,12 @@ contains 4 points, i.e. left (or right) red points, center red points and the 2 
 * only visit points in one row
 * your face only head to RED points, however your gaze visit all points in a row  
 
-    **In a set**: 
-    fix your head pose to center red point and only change gaze direction by looking at points in this set, once a time, from left to right    
+    **In a set**:   
+    * fix your head pose to center red point and only change gaze direction by looking at points in this set
+    * points are visited from left to right, with one image taken for each visit
     
 **More details**:    
 * In each set, you should fix your head pose to the direction such that when you look forward natually with such pose, your gaze is focused on that set center red point of **the middle row**				
-* Points in each set will visited from left to right				
 * If you think last image was not taken correctly, let the controller know and we should retake it				
 * Each image was taken by left-clicking the mouse				
 * Note left/right red point may also be the center point if this set if an edge set
@@ -43,5 +43,4 @@ for each set:
     find the range of points in this set, 
     for point_ in [left_red_point: right_red_point]: //this may contain 4 or 7 points, from left to right
         focused on point_ and take the picture by left-clicking the mouse, you should hear the shutter ticking if successful
-        (repeat this process for next point)
 ```        
