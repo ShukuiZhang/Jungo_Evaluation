@@ -4,10 +4,12 @@ Collect gaze images with observer looking at different points. Images are captur
 
 ### normal set:
 ![normal set] (/home/shukui/Pictures/Selection_224.png)  
+Format: ![Alt Text](url)
 contains 7 points, i.e. left red points, center red points, right red points and the 4 blue points in between.				
 
 ### edge set: 
 ![edge set] (/home/shukui/Pictures/Selection_225.png)  
+Format: ![Alt Text](url)
 contains 4 points, i.e. left (or right) red points, center red points and the 2 blue points in-between
 
 ## You need to know:   
