@@ -2,15 +2,15 @@
 ## Summary:   
 Collect gaze images with observer looking at different points. Images are captured by observer left-clicking the mouse when he/she feels good regarding the current gaze direction.
 
-* normal set:
+* normal set:   
 ![normal set](Selection_224.png)  
 
-contains 7 points, i.e. left red points, center red points, right red points and the 4 blue points in between.				
+   contains 7 points, i.e. left red points, center red points, right red points and the 4 blue points in between.				
 
-* edge set: 
+* edge set:    
 ![edge set](Selection_225.png)  
 
-contains 4 points, i.e. left (or right) red points, center red points and the 2 blue points in-between
+   contains 4 points, i.e. left (or right) red points, center red points and the 2 blue points in-between   
 
 ## You need to know:   
 **One session**:
